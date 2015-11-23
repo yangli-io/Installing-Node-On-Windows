@@ -13,3 +13,13 @@ You will need this to run some of the node-gyp packages, you can find and instal
 ```
 npm config set msvs_version 2013 --global
 ```
+
+### Install Windows SDK
+Download and install [the windows SDK](http://www.microsoft.com/en-us/download/details.aspx?id=8279) and then open up windows cmd and enter (depending on your system)
+
+```
+call "C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\Setenv.cmd" /Release /x86
+call "C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\Setenv.cmd" /Release /x64
+```
+
+
